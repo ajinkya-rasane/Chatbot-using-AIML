@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category>
+	<pattern>_ MAGGIE *</pattern>
+	<template>
+		<random>
+			<li> You like maggie? You must try the maggie from Aunty in the village! </li>
+			<li> Yumpy's is the biggest seller of maggie on Campus. It's not the best though </li>
+			<li> I hear there is an aunty in the village that makes delicious maggie </li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>_ MAGGIE</pattern>
+	<template>
+		<random>
+			<li> You like maggie? You must try the maggie from Aunty in the village! </li>
+			<li> Yumpy's is the biggest seller of maggie on Campus. It's not the best though </li>
+			<li> I hear there is an aunty in the village that makes delicious maggie </li>
+			<li> Yumpy's near Mess 1 serves all kinds of Maggie </li>
+			<li> You must try the Veg Fried Maggie from Yumpy's </li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>MAGGIE *</pattern>
+	<template>
+		<random>
+			<li> You like maggie? You must try the maggie from Aunty in the village! </li>
+			<li> Yumpy's is the biggest seller of maggie on Campus. It's not the best though </li>
+			<li> I hear there is an aunty in the village that makes delicious maggie </li>
+		</random>
+	</template>
+</category>
+</aiml>

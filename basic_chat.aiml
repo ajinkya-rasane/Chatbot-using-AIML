@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+            <li>Well, hello!</li>
+            <li>Hello there!!</li>
+            <li>Hi!!</li>
+        </random>
+        </template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I am fine,thankyou.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            I am fine,thankyou.
+        </template>
+    </category> 
+
+    <category>
+        <pattern>WHY *</pattern>
+        <template>
+            <random>
+                <li>You are asking way too many questions now.</li>
+                <li>This line of quesioning is intrusive.</li>
+                <li>Umm...</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* YOUR NAME</pattern>
+        <template>
+            <random>
+                <li>My name is Aalisha.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ARE YOU A GIRL OR A BOY</pattern>
+        <template>
+            <random>
+                <li>I am a girl.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR GENDER</pattern>
+        <template>
+            <random>
+                <li>Female</li>
+            </random>
+        </template>
+    </category>
+
+   <category>
+      <pattern>MY NAME IS *</pattern>
+      <template>
+         It's nice to meet you <set name="myname"><star/></set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY NAME</pattern>
+      <template>
+         Your name is <get name="myname"/>.
+      </template>  
+   </category>
+
+   <category>
+      <pattern>I AM A MAN</pattern>
+      <template>
+         It's been a while since i had a chat with a <set name="gender">male</set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY GENDER</pattern>
+      <template>
+         Your gender is <get name="gender"/>.
+      </template>  
+   </category>
+   <category>
+      <pattern>I AM A BOY</pattern>
+      <template>
+         It's been a while since i had a chat with a<set name="gender">male</set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY GENDER</pattern>
+      <template>
+         Your gender is <get name="gender"/>.
+      </template>  
+   </category>
+
+   <category>
+      <pattern>I AM A WOMAN</pattern>
+      <template>
+         It's been a while since i had a chat with a <set name="gender">female</set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY GENDER</pattern>
+      <template>
+         Your gender is <get name="gender"/>.
+      </template>  
+   </category>
+    
+    <category>
+      <pattern>I AM A GIRL</pattern>
+      <template>
+         It's been a while since i had a chat with a <set name="gender">female</set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY GENDER</pattern>
+      <template>
+         Your gender is <get name="gender"/>.
+      </template>  
+   </category>
+
+   <category>
+      <pattern>I AM * YEARS OLD</pattern>
+      <template>
+         Good to know you are <set name="age"><star/></set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY AGE</pattern>
+      <template>
+         Your age is <get name="age"/>.
+      </template>  
+   </category>
+
+   <category>
+      <pattern>GOOD BYE</pattern>
+      <template>
+        <random>
+            <li>It was nice talking to you <get name="myname"/></li>
+            <li>I hope we meet again soon <get name="myname"/></li>
+            <li>I hope we meet again soon <get name="myname"/></li>
+        </random>
+      </template>  
+   </category>
+
+   <category>
+        <pattern>GOODBYE</pattern>
+        <template>
+            <srai>GOOD BYE</srai>  
+        </template>
+   </category>
+
+   <category>
+      <pattern>GOODBYE *</pattern>
+      <template>
+            <srai>GOOD BYE</srai>  
+        </template> 
+   </category>
+
+   <category>
+      <pattern>GOOD BYE *</pattern>
+      <template>
+            <srai>GOOD BYE</srai>  
+        </template>
+   </category>
+
+   <category>
+      <pattern>BYE</pattern>
+      <template>
+            <srai>GOOD BYE</srai>  
+        </template>
+   </category>
+
+   <category>
+      <pattern>BYE *</pattern>
+      <template>
+            <srai>GOOD BYE</srai>  
+        </template> 
+   </category>
+
+   <category>
+        <pattern>FIND WHO IS *</pattern>
+        <template>
+            abcd <star/>
+        </template> 
+   </category>
+
+   <category>
+        <pattern>FIND WHAT IS *</pattern>
+        <template>
+            abcd <star/>
+        </template> 
+   </category>
+
+   <category>
+       <pattern>*</pattern>
+       <template>
+           <random>
+           <li>I don't know what you are talking about</li>
+           <li>Can we talk about something else?</li>
+           <li>Umm...</li>
+            </random>
+       </template>
+   </category>
+
+   <category>
+        <pattern>GET ME THE WEATHER OF *</pattern>
+        <template>
+            bcdf <star/>
+        </template> 
+   </category>
+
+   <category>
+        <pattern>WHAT IS THE WEATHER OF *</pattern>
+        <template>
+            bcdf <star/>
+        </template> 
+   </category>
+    
+</aiml>

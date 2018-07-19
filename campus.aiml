@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8">
+<category>
+	<pattern>MAGGIE</pattern>
+	<template>
+		<random>
+			<li> You like maggie? You must try the maggie from Aunty in the village! </li>
+			<li> Yumpy's is the biggest seller of maggie on Campus. It's not the best though </li>
+			<li> I hear there is an aunty in the village that makes delicious maggie </li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>_ MAGGIE</pattern>
+	<template>
+		<srai>MAGGIE</srai>
+	</template>
+</category>
+<category>
+	<pattern>* MAGGIE *</pattern>
+	<template>
+		<srai>MAGGIE</srai>
+	</template>
+</category>
+<category>
+	<pattern>_ EATERIES *</pattern>
+	<template>
+		<random>
+			<li> There are two bnbs- one near mess-1 and one in CP. </li>
+			<li> If you like maggie, you can go to yumpys. </li>
+			<li> You can get some fruits in the fruit shop in CP. You should eat healthy food. </li>
+			<li> There was a viceroy here before....but it's gone now. </li>
+			<li> You can get groceries and packed food at more. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>EATERIES *</pattern>
+	<template>
+		<random>
+			<li> There are two bnbs- one near mess-1 and one in CP. </li>
+			<li> If you like maggie, you can go to yumpys. </li>
+			<li> You can get some fruits in the fruit shop in CP. You should eat healthy food. </li>
+			<li> There was a viceroy here before....but it's gone now. </li>
+			<li> You can get groceries and packed food at more. </li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>EATERIES</pattern>
+	<template>
+		<random>
+			<li> There are two bnbs- one near mess-1 and one in CP. </li>
+			<li> If you like maggie, you can go to yumpys. </li>
+			<li> You can get some fruits in the fruit shop in CP. You should eat healthy food. </li>
+			<li> There was a viceroy here before....but it's gone now. </li>
+			<li> You can get groceries and packed food at more. </li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>FOOD</pattern>
+	<template>
+		<srai>EATERIES</srai>
+	</template>
+</category>
+<category>
+	<pattern>FOOD *</pattern>
+	<template>
+		<srai>EATERIES</srai>
+	</template>
+</category>
+<category>
+	<pattern>* FOOD</pattern>
+	<template>
+		<srai>EATERIES</srai>
+	</template>
+</category>
+<category>
+	<pattern>* FOOD *</pattern>
+	<template>
+		<srai>EATERIES</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT</pattern>
+	<template>
+		<srai>EATERIES</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT *</pattern>
+	<template>
+		<srai>EATERIES</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I AM HUNGRY</pattern>
+	<template>
+		<srai>EATERIES</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT PIZZA</pattern>
+	<template>
+		You can get pizza at bnb.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT PIZZA</pattern>
+	<template>
+		You can get pizza at bnb.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT FRUITS</pattern>
+	<template>
+		You can get fruits at cp,more or the fruit stalls near mess1.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT FRUITS</pattern>
+	<template>
+		You can get fruits at cp,more or the fruit stalls near mess1.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT SANDWICH</pattern>
+	<template>
+		You can get sandwich at bnb or Yumpys.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT SANDWICH</pattern>
+	<template>
+		You can get sandwich at bnb or Yumpys.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT LUNCH</pattern>
+	<template>
+		You can get lunch at mess1 or mess2.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT LUNCH</pattern>
+	<template>
+		You can get lunch at mess1 or mess2.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT BREAKFAST</pattern>
+	<template>
+		You can get breakfast at mess1 or mess2.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT BREAKFAST</pattern>
+	<template>
+		You can get breakfast at mess1 or mess2.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT TO EAT DINNER</pattern>
+	<template>
+		You can get dinner at mess1 or mess2.
+	</template>
+</category>
+
+<category>
+	<pattern>I WANT DINNER</pattern>
+	<template>
+		You can get dinner at mess1 or mess2.
+	</template>
+</category>
+
+<category>
+	<pattern>* GOOD PLACES ON CAMPUS</pattern>
+	<template>
+		<random>
+			<li>You can go to road not taken for some privacy.</li>
+			<li>You can go to lover's for some privacy.</li>
+			<li>You can go to sac for some activities</li>
+			<li>You can go to the acad block to study.</li>
+			<li>You can go to CP for shopping.</li>
+			<li>You can go to Audi at saturday night for movies.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>FESTS</pattern>
+	<template>
+		We have 3 main fests - Atmos, Arena and Pearl.
+	</template>
+</category>
+
+<category>
+	<pattern>FESTS *</pattern>
+	<template>
+		<srai>FESTS</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* FESTS *</pattern>
+	<template>
+		<srai>FESTS</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* FESTS</pattern>
+	<template>
+		<srai>FESTS</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>ARENA</pattern>
+	<template>
+		Arena is the sports fest of our campus.
+	</template>
+</category>
+
+<category>
+	<pattern>* ARENA</pattern>
+	<template>
+		<srai>ARENA</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* ARENA *</pattern>
+	<template>
+		<srai>ARENA</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>ARENA *</pattern>
+	<template>
+		<srai>ARENA</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>ATMOS</pattern>
+	<template>
+		Atmos is the tech fest of our campus.
+	</template>
+</category>
+
+<category>
+	<pattern>* ATMOS</pattern>
+	<template>
+		<srai>ATMOS</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* ATMOS *</pattern>
+	<template>
+		<srai>ATMOS</srai>
+	</template>
+</category>
+<category>
+	<pattern>ATMOS *</pattern>
+	<template>
+		<srai>ATMOS</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>PEARL</pattern>
+	<template>
+		Pearl is the cultural fest of our campus.
+	</template>
+</category>
+
+<category>
+	<pattern>PEARL *</pattern>
+	<template>
+		<srai>PEARL</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* PEARL *</pattern>
+	<template>
+		<srai>PEARL</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* PEARL</pattern>
+	<template>
+		<srai>PEARL</srai>
+	</template>
+</category>
+
+</aiml>
